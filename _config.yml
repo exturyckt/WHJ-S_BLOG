@@ -1,15 +1,12 @@
-# Hexo Configuration
-## Docs: https://hexo.io/docs/configuration.html
-## Source: https://github.com/hexojs/hexo/
-
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
+title: '他乡遇故知' #标题
+subtitle: '一步一句是相思' #副标题
+description: '台下人金榜正题名，不曾认台上旧相识' #个性签名
+keywords: null
+author: 威风的小蝎子 #作者
+language: zh-CN #语言
+timezone: '' #时区
+
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -44,11 +41,12 @@ post_asset_folder: false
 relative_link: false
 future: true
 syntax_highlighter: highlight.js
+
 highlight:
-  line_number: true
+  line_number: false
   auto_detect: false
   tab_replace: ''
-  wrap: true
+  wrap: false
   hljs: false
 prismjs:
   preprocess: true
