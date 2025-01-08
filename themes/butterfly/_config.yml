@@ -3,7 +3,7 @@
 # --------------------------------------
 
 nav:
-  logo:   /img/butterfly-icon.png  # 图片
+  logo:   /img/yanqin1.png  # 图片
   display_title: true
   fixed: false # 固定导航栏
 
@@ -18,6 +18,7 @@ menu:
     电影: /movies/ || fas fa-video
   友情链接: /link/ || fas fa-link
   关于我们: /about/ || fas fa-heart
+
 
 # Code Blocks (代码块相关)
 # --------------------------------------
@@ -35,8 +36,8 @@ highlight_fullpage: true # true: 添加切换全屏的按钮
 # 正式:
 #   icon: 链接 || 描述 || 颜色
 social:
-  # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
+  fab fa-github: https://github.com/exturyckt
+  fas fa-envelope: whj15568348562@163.com
 
 # Image (图片设置)
 # --------------------------------------
@@ -53,7 +54,7 @@ avatar:
 disable_top_img: false
 
 # 首页的横幅图片
-index_img: 
+index_img: transparent
 
 # 如果页面没有设置横幅，则显示顶部图片
 default_top_img:
@@ -239,11 +240,11 @@ aside:
     button:
       enable: true
       icon: fab fa-github
-      text: 关注我
-      link: https://github.com/xxxxxx
+      text: Follow Me
+      link: https://github.com/exturyckt
   card_announcement:
     enable: true
-    content: 这是我的博客
+    content: 欢迎光临小站，这里是我日常收集和整理的总结，希望能对你有所帮助
   card_recent_post:
     enable: true
     limit: 5 # 如果设置为 0 将显示全部
@@ -649,15 +650,15 @@ text_align_justify: false
 # 设置网站背景
 # 可以设置为颜色或图片（可设置图片 或者 颜色）
 # 图片格式：url(http://xxxxxx.com/xxx.jpg)
-background:
+background: url(/img/yanqin1.png)
 
 # 页脚背景
 footer_bg: false
 
 # 为 header 或 footer 添加黑色半透明遮罩
 mask:
-  header: true
-  footer: true
+  header: false
+  footer: false
 
 # 右下角按钮距离底部的位置，默认单位为像素
 rightside_bottom:
@@ -688,7 +689,7 @@ canvas_ribbon:
 
 # Fluttering Ribbon (动态彩带)
 canvas_fluttering_ribbon:
-  enable: true
+  enable: false
   mobile: false
 
 # canvas_nest
@@ -772,10 +773,12 @@ subtitle:
   source: false
   # 如果关闭打字效果，subtitle 只会显示 sub 的第一行文字
   sub:
-    - 你在抱怨什么呢
-    - 为明天到来的事，说人生像是没有意义
-    - 没有选择会是唯一的路
-    - 这不是你自己的问题，人终归要好好去生活
+    - 欢迎您来到我的博客(*^▽^*)
+    - 花开无意，花落亦无心；流水自去，落花随流深。
+    - 山高云自闲，水深鱼自游；世事如浮萍，何必系心头。
+    - 松风随意过，山鸟自在鸣；闲云任卷舒，世事不萦心。
+    - 风来疏竹，风过而竹不留声;雁度寒潭，雁去而潭不留影。故君子事来而心始现，事去而心随空。
+    - 以大雁为礼。一纵鸿鹄之志，终有归期，不忘归家。二择一人长情，从一而终，夫妇相随。
 
 
 
