@@ -90,10 +90,9 @@ cover:
   archives_enable: true
   # 首页封面显示的位置
   # left/right/both
-  position: both
+  position: 
   # 当没有设置封面时，显示默认封面
-  default_cover:
-    # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
+  default_cover: 
 
 # 替换无法显示的图片
 error_img:
@@ -163,7 +162,7 @@ toc:
 
 # 文章版权
 post_copyright:
-  enable: true
+  enable: false
   decode: false
   author_href:
   license: CC BY-NC-SA 4.0
@@ -216,10 +215,10 @@ noticeOutdate:
 
 footer:
   owner:
-    enable: true
+    enable: false
     since: 2020
   custom_text:
-  copyright: true # 主题和框架的版权
+  copyright: false # 主题和框架的版权
 
 # 侧边栏
 # --------------------------------------
@@ -561,7 +560,7 @@ crisp:
 messenger:
   enable: false
   pageID:
-  lang: zh_TW # 语言 en_US/zh_CN/zh_TW 等
+  lang: zh_CN # 语言 en_US/zh_CN/zh_TW 等
 
 # 分析
 # --------------------------------------
@@ -636,7 +635,7 @@ site_verification:
 # 网站信息的位置，例如：300px/300em/300rem/10%（首页标题距离顶部的距离）
 index_site_info_top:
 # 首页 top_img 的高度，例如：300px/300em/300rem
-index_top_img_height:
+index_top_img_height: 400px
 
 # 分类和标签页面的用户界面设置 (category 和 tag 页的 UI 设置)
 # index - 与首页 UI 相同（index 值代表 UI 将与首页的 UI 一样）
@@ -650,7 +649,7 @@ text_align_justify: false
 # 设置网站背景
 # 可以设置为颜色或图片（可设置图片 或者 颜色）
 # 图片格式：url(http://xxxxxx.com/xxx.jpg)
-background: url(/img/yanqin1.png)
+background: /img/wallhaven-7pz66y.jpg
 
 # 页脚背景
 footer_bg: false
@@ -773,12 +772,12 @@ subtitle:
   source: false
   # 如果关闭打字效果，subtitle 只会显示 sub 的第一行文字
   sub:
-    - 欢迎您来到我的博客(*^▽^*)
-    - 花开无意，花落亦无心；流水自去，落花随流深。
-    - 山高云自闲，水深鱼自游；世事如浮萍，何必系心头。
-    - 松风随意过，山鸟自在鸣；闲云任卷舒，世事不萦心。
-    - 风来疏竹，风过而竹不留声;雁度寒潭，雁去而潭不留影。故君子事来而心始现，事去而心随空。
-    - 以大雁为礼。一纵鸿鹄之志，终有归期，不忘归家。二择一人长情，从一而终，夫妇相随。
+    - 欢迎您来到我的博客(*^▽^*)   
+    - 花开无意，花落亦无心；流水自去，落花随流深.   
+    - 山高云自闲，水深鱼自游；世事如浮萍，何必系心头。   
+    - 松风随意过，山鸟自在鸣；闲云任卷舒，世事不萦心。   
+    - 风来疏竹，风过而竹不留声;雁度寒潭，雁去而潭不留影。故君子事来而心始现，事去而心随空。   
+    - 以大雁为礼。一纵鸿鹄之志，终有归期，不忘归家。二择一人长情，从一而终，夫妇相随。   
 
 
 
