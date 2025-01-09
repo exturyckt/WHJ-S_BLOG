@@ -23,7 +23,7 @@ menu:
 # Code Blocks (代码块相关)
 # --------------------------------------
 highlight_theme: darker # darker / pale night / light / ocean / false
-highlight_height_limit: false # 单位：像素
+highlight_height_limit: true # 单位：像素
 code_word_wrap: true
 # 高亮工具栏
 highlight_theme_macStyle: true # 使用 Mac 风格
