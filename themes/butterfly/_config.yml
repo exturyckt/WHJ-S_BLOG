@@ -54,10 +54,10 @@ avatar:
 disable_top_img: false
 
 # 首页的横幅图片
-index_img: transparent
+index_img: transparent 
 
 # 如果页面没有设置横幅，则显示顶部图片
-default_top_img:
+default_top_img: 
 
 # 归档页面的横幅图片
 archive_img:
@@ -635,7 +635,7 @@ site_verification:
 # 网站信息的位置，例如：300px/300em/300rem/10%（首页标题距离顶部的距离）
 index_site_info_top:
 # 首页 top_img 的高度，例如：300px/300em/300rem
-index_top_img_height: 400px
+index_top_img_height: 
 
 # 分类和标签页面的用户界面设置 (category 和 tag 页的 UI 设置)
 # index - 与首页 UI 相同（index 值代表 UI 将与首页的 UI 一样）
@@ -652,12 +652,12 @@ text_align_justify: false
 background: /img/wallhaven-7pz66y.jpg
 
 # 页脚背景
-footer_bg: false
+footer_bg: transparent
 
 # 为 header 或 footer 添加黑色半透明遮罩
 mask:
   header: false
-  footer: false
+  footer: true
 
 # 右下角按钮距离底部的位置，默认单位为像素
 rightside_bottom:
