@@ -40,6 +40,8 @@ code_blocks:
 social:
   fab fa-github: https://github.com/exturyckt
   fas fa-envelope: mailto:whj15568348562@163.com
+  fab fa-bilibili: https://space.bilibili.com/401020674?spm_id_from=333.1007.0.0
+
 
 # Image (图片设置)
 # --------------------------------------
@@ -774,8 +776,8 @@ subtitle:
   source: false
   # 如果关闭打字效果，subtitle 只会显示 sub 的第一行文字
   sub:
-    - 欢迎您来到我的博客(*^▽^*)   
-    - 花开无意，花落亦无心；流水自去，落花随流深.   
+    - 欢迎您来到我的博客(*^▽^*)。。。  
+    - 花开无意，花落亦无心；流水自去，落花随流深。   
     - 山高云自闲，水深鱼自游；世事如浮萍，何必系心头。   
     - 松风随意过，山鸟自在鸣；闲云任卷舒，世事不萦心。   
     - 风来疏竹，风过而竹不留声;雁度寒潭，雁去而潭不留影。故君子事来而心始现，事去而心随空。   
