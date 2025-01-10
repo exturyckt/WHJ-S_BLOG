@@ -40,17 +40,21 @@ render_drafts: false
 post_asset_folder: true
 relative_link: false
 future: true
+
+
 syntax_highlighter: highlight.js
 
 highlight:
-  line_number: false
-  auto_detect: false
-  tab_replace: ''
-  wrap: false
-  hljs: false
+  enable: true
+  line_number: true       # 显示行号
+  auto_detect: false      # 不自动检测语言（手动指定更准确）
+  tab_replace: ''         # 不替换制表符
+  wrap: true              # 自动换行长代码
+  hljs: true              # 启用 hljs 风格（必要）
+
 prismjs:
-  preprocess: true
-  line_number: true
+  preprocess: false
+  line_number: false
   tab_replace: ''
 
 # Home page setting

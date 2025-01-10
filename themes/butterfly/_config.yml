@@ -10,34 +10,36 @@ nav:
 # Menu 目錄
 menu:
   首页: / || fas fa-home
-  归档: /archives/ || fas fa-archivee-archive
+  归档: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   目录: /categories/ || fas fa-folder-opener-opens fa-folder-open
-  列表||fas fa-list:
-    音乐: /music/ || fas fa-music
-    电影: /movies/ || fas fa-video
-  友情链接: /link/ || fas fa-link
-  关于我们: /about/ || fas fa-heart
-
-
+  音乐推荐: /music/ || fas fa-music
+  有用的小工具/网站: /link/ || fas fa-link
+ 
 # Code Blocks (代码块相关)
 # --------------------------------------
-highlight_theme: darker # darker / pale night / light / ocean / false
-highlight_height_limit: true # 单位：像素
-code_word_wrap: true
-# 高亮工具栏
-highlight_theme_macStyle: true # 使用 Mac 风格
-highlight_copy: true # 复制按钮
-highlight_lang: true # 显示代码语言
-highlight_shrink: false # true: 收缩代码块 / false: 展开代码块 | none: 展开代码块并隐藏按钮
-highlight_fullpage: true # true: 添加切换全屏的按钮
+code_blocks:
+  # Code block theme: darker / pale night / light / ocean / false
+  theme: light
+  macStyle: true
+  # Code block height limit (unit: px)
+  height_limit: false
+  word_wrap: false
+
+  # Toolbar
+  copy: true
+  language: true
+  # true: shrink the code blocks | false: expand the code blocks | none: expand code blocks and hide the button
+  shrink: false
+  fullpage: false
+
 
 # Social Settings (社交图标设置)
 # 正式:
 #   icon: 链接 || 描述 || 颜色
 social:
   fab fa-github: https://github.com/exturyckt
-  fas fa-envelope: whj15568348562@163.com
+  fas fa-envelope: mailto:whj15568348562@163.com
 
 # Image (图片设置)
 # --------------------------------------
@@ -215,10 +217,10 @@ noticeOutdate:
 
 footer:
   owner:
-    enable: false
-    since: 2020
+    enable: true
+    since: 2024
   custom_text:
-  copyright: false # 主题和框架的版权
+  copyright: true # 主题和框架的版权
 
 # 侧边栏
 # --------------------------------------
@@ -398,8 +400,8 @@ docsearch:
 # Share.js
 # https://github.com/overtrue/share.js
 sharejs:
-  enable: true
-  sites: facebook,twitter,wechat,weibo,qq
+  enable: false
+  sites: 
 
 # AddToAny
 # https://www.addtoany.com/
@@ -649,7 +651,7 @@ text_align_justify: false
 # 设置网站背景
 # 可以设置为颜色或图片（可设置图片 或者 颜色）
 # 图片格式：url(http://xxxxxx.com/xxx.jpg)
-background: /img/wallhaven-7pz66y.jpg
+background: /img/wallhaven-l3ej6y.jpg
 
 # 页脚背景
 footer_bg: transparent
