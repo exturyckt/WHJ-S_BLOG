@@ -356,16 +356,13 @@ rightside_item_order:
 # 如果你设置为 false，它将根据你的设置加载 mathjax/katex 脚本 (需要在页面的 Markdown Front-matter 中添加 mathjax: true)
 # (false 按需加载，必须在使用的 Markdown Front-matter 中添加 mathjax: true)
 
-# MathJax
-mathjax:
-  enable: false
-  per_page: false
 
-# KaTeX
+math:
+  use: katex  
+  per_page: true
+  hide_scrollbar: false
 katex:
-  enable: false
-  per_page: false
-  hide_scrollbar: true
+  copy_tex: false
 
 # 搜索
 # 见 https://butterfly.js.org/posts/ceeb73f/#搜索系统
